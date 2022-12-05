@@ -11,7 +11,7 @@ from PIL import Image
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize, RandomResizedCrop, InterpolationMode, RandomCrop, RandomRotation
 from tqdm import tqdm
 
-from clip.model import build_model
+from cloome.clip.model import build_model
 # from clip.tokenizer import SimpleTokenizer as _Tokenizer
 
 __all__ = ["available_models", "load", "tokenize"]
